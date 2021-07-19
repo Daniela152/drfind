@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.paciente.loginpac">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fondototal"
+            android:adjustViewBounds="true">
+        </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="150dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_logotipo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:fontFamily="@font/coming_soon"
+            android:text="usuario:"
+            android:textColor="@color/colorTitulos"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtusuariopaci"
+        android:layout_width="348dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="@color/coloriconos"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorTitulos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:fontFamily="@font/coming_soon"
+            android:text="contraseña:"
+            android:textColor="@color/colorTitulos"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtpasspaci"
+        android:layout_width="348dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorTitulos"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTitulos" />
+
+    <CheckBox
+        android:id="@+id/checkBoxuserpac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+        android:buttonTint="@color/coloriconos"
+        android:text="Guardar datos"
+        android:textColor="@color/colorTitulos" />
+
+    <Button
+        android:id="@+id/btnloginpaciente"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ovalo"
+        android:fontFamily="@font/coming_soon"
+        android:text="Iniciar Sesion"
+        android:textAlignment="center"
+        android:textColor="@color/colorletrasbotones"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnregispaciente"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/ovalo"
+        android:fontFamily="@font/coming_soon"
+        android:text="Registrarse"
+        android:textAlignment="center"
+        android:textColor="@color/colorletrasbotones"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

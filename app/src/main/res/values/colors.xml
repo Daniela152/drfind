@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5674B8C4</color>
+    <color name="colorPrimaryDark">#B974B8C4</color>
+    <color name="colorAccent">#0F66B8</color>
+    <color name="colorTitulos">#0D0D2B</color>
+    <color name="colorletrasbotones">#0E0D0D</color>
+    <color name="colorbordeboton">#B4256063</color>
+    <color name="colorfondoboton">#D070D8E6</color>
+    <color name="coloriconos">#193A75</color>
+</resources>
